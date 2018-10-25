@@ -9,7 +9,7 @@
       <div class="navlist">
         <ul>
           <li v-for="(item,index) of navlist" :key="index">
-            <a href="#" v-text="item" class="hover"></a>
+            <a href="#" v-text="item" class=""></a>
             <span v-if="index==1||index==2||index==5"></span>
           </li>
         </ul>
@@ -46,6 +46,7 @@ position: relative;}
 .navlist ul{width: 100%;height: 100%;list-style-type: none;}
 .navlist li {height: 100%;display: block;float: left;font-size: 14px;color: #666;line-height: 60px;cursor: pointer;padding: 0 22px;}
 .navlist li a{font-size: 16px;color: #333;line-height: 60px;}
+.navlist li a:hover{text-decoration: none;}
 .navlist li .hover{background: #fff;color: #207be6;}
 .navlist li span{display: inline-block;width: 12px;height: 10px;background: url(/static/img/dhico.png) no-repeat center center;}
 </style>
