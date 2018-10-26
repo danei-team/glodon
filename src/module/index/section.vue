@@ -11,12 +11,16 @@ import soMain from '../../components/solution/soMain.vue'
 export default {
   mounted(){
 <<<<<<< HEAD
+<<<<<<< HEAD
   
     
   },
   components:{
     cell,
     soMain
+=======
+    this.$router.push('home');
+>>>>>>> d28b9aabc79830a23c44e71da7ddf0f24d4ebb9a
 =======
     this.$router.push('home');
 >>>>>>> d28b9aabc79830a23c44e71da7ddf0f24d4ebb9a
