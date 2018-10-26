@@ -11,7 +11,7 @@
 export default {
     data(){
         return{
-            cellItem:[{text:"全部方案"},{text:"政府机构"},{text:"房地产企业"},{text:"施工企业"},{text:"高等院校"},{text:"金融业务"},{text:"国际市场"}]
+            cellItem:[{text:"全部案例"},{text:"建设方"},{text:"建设单位"},{text:"施工企业"},{text:"中介咨询"},{text:"政府行管"}]
         }
     }
 }

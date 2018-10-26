@@ -11,9 +11,6 @@
         <dd class="phone">4000-166-166</dd>
       </dl>
     </div>
-    <div class="fb">
-
-    </div>
   </div>
 </template>
 
@@ -36,10 +33,11 @@ export default {
 .footer{    width: 100%;
     min-width: 1200px;
     background: #242424;
-    margin-top: 0px;}
+    margin-top: 0px;position: relative;top: 60px;}
 .footer .ft{width: 1080px;
     margin: 0 auto;
-    padding: 80px 0 60px 0;overflow: hidden;}
+    padding: 80px 0 60px 0;overflow: hidden;
+    margin-top:-20px;}
 .footer .ft dl{    float: left;
     width: 208px;}
 .ft dl dd{    color: #999;

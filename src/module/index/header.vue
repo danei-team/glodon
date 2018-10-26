@@ -9,7 +9,11 @@
       <div class="navlist">
         <ul>
           <li v-for="(item,index) of navlist" :key="index">
-            <a href="#" v-text="item" class="hover"></a>
+<<<<<<< HEAD
+            <a href="#" v-text="item"></a>
+=======
+            <a href="#" v-text="item" class=""></a>
+>>>>>>> d28b9aabc79830a23c44e71da7ddf0f24d4ebb9a
             <span v-if="index==1||index==2||index==5"></span>
           </li>
         </ul>
@@ -37,7 +41,8 @@ export default {
 .nav{position: fixed;top: 0px;z-index: 20000;background: #fff;width: 100%;min-width: 1200px;height: 60px;border-bottom: 1px solid #ddd;}
 .nav-box{width: 1200px;height: 60px;margin: 0 auto;}
 .logo{float: left;width: 260px;padding-top: 19px;position: relative;}
-.logo a{display: block;overflow: hidden;width: 184px;height: 18px;background: url(/static/img/logo.jpg) no-repeat;text-indent: -999px;}
+.logo a{display: block;overflow: hidden;width: 184px;height: 18px;background: url(/static/img/logo.jpg) no-repeat;text-indent: -999px; color:#333}
+
 .search{width: 200px;height: 33px; border: 1px #ccc solid;border-radius: 3px;background: #fafafa;float: right;margin-top: 14px;
 position: relative;}
 .search input{width: 155px;margin-right: 10px;height: 31px;display: inline-block;border: none;line-height: 31px;font-size: 13px;padding-left: 12px;font-family: "Segoe UI", "Helvetica Neue", Helvetica, sans-serif;background: #fafafa;color: black;}
@@ -46,6 +51,11 @@ position: relative;}
 .navlist ul{width: 100%;height: 100%;list-style-type: none;}
 .navlist li {height: 100%;display: block;float: left;font-size: 14px;color: #666;line-height: 60px;cursor: pointer;padding: 0 22px;}
 .navlist li a{font-size: 16px;color: #333;line-height: 60px;}
+<<<<<<< HEAD
+.navlist li a:hover{background: #fff;color: #207be6;text-decoration:none}
+=======
+.navlist li a:hover{text-decoration: none;}
 .navlist li .hover{background: #fff;color: #207be6;}
+>>>>>>> d28b9aabc79830a23c44e71da7ddf0f24d4ebb9a
 .navlist li span{display: inline-block;width: 12px;height: 10px;background: url(/static/img/dhico.png) no-repeat center center;}
 </style>
