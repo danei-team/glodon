@@ -2,7 +2,7 @@
   <div class="x_type">
     <h3>方案类型:</h3>
     <ul>
-        <li v-for="item in cellItem"><router-link to="#" v-text="item.text"></router-link></li>
+        <li v-for="(item,index) in cellItem" :key="index"><router-link to="#" v-text="item.text"></router-link></li>
     </ul>
   </div>
 </template>
