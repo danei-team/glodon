@@ -11,6 +11,7 @@
           <li v-for="(item,index) of navlist" :key="index">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <a href="#" v-text="item"></a>
 =======
             <a href="#" v-text="item" class=""></a>
@@ -18,6 +19,9 @@
 =======
             <a href="#" v-text="item" class=""></a>
 >>>>>>> d28b9aabc79830a23c44e71da7ddf0f24d4ebb9a
+=======
+            <a href="#" v-text="item" class="hover"></a>
+>>>>>>> parent of b6abb79... ydk_18:25
             <span v-if="index==1||index==2||index==5"></span>
           </li>
         </ul>
@@ -57,11 +61,14 @@ position: relative;}
 .navlist li a{font-size: 16px;color: #333;line-height: 60px;}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .navlist li a:hover{background: #fff;color: #207be6;text-decoration:none}
 =======
 =======
 >>>>>>> d28b9aabc79830a23c44e71da7ddf0f24d4ebb9a
 .navlist li a:hover{text-decoration: none;}
+=======
+>>>>>>> parent of b6abb79... ydk_18:25
 .navlist li .hover{background: #fff;color: #207be6;}
 >>>>>>> d28b9aabc79830a23c44e71da7ddf0f24d4ebb9a
 .navlist li span{display: inline-block;width: 12px;height: 10px;background: url(/static/img/dhico.png) no-repeat center center;}
