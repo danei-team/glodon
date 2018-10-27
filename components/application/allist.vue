@@ -1,9 +1,10 @@
 <template>
+
   <div class="x_allist">
     <div class="allist">
       <ul class="clearfix">
-        <li v-for="item in list">
-         <a href="#">
+        <li v-for="(item,index) in list" :key="index">
+         <a href="#" @click="goin()">
           <div class="altu">
                 <img :title="item.title" :src="item.img_url">
                 <div class="alnr">
@@ -66,6 +67,11 @@ export default {
             {title:"让建设咨询的工程指标计算、指标积累工作更方便",img_url:"/static/img/application/39.png"},
             {title:"帮助中信地产实现成本精细化、增值型管理",img_url:"/static/img/application/40.png"}
             ]
+        }
+    },
+    methods:{
+        goin:function(){
+            this.$router.push('/aplibody/1');
         }
     }
 }
